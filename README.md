@@ -1,8 +1,8 @@
-# Como configurar/instalar o `powersheel` no `Linux Ubuntu`
+# Como configurar/instalar o `powershell` no `Linux Ubuntu`
 
 ## Resumo
 
-Neste documento estão contidos os principais comandos e configurações para configurar/instalar o `powersheel` no `Linux Ubuntu`.
+Neste documento estão contidos os principais comandos e configurações para configurar/instalar o `powershell` no `Linux Ubuntu`.
 
 ## _Abstract_
 
@@ -12,7 +12,7 @@ _In this document are contained the main commands and settings to set up/install
 
 ### `powershell`
 
-O PowerShell é uma poderosa linguagem de script e ambiente de automação desenvolvida pela Microsoft, projetada para simplificar a administração e a automação de tarefas em sistemas Windows e ambientes de rede. Ele fornece uma interface de linha de comando interativa que permite aos usuários executar comandos e escrever scripts para realizar uma ampla gama de tarefas, desde gerenciamento de arquivos e configuração de sistema até administração de servidores. O PowerShell se destaca pela ênfase na manipulação de objetos, permitindo que os resultados dos comandos sejam tratados como objetos que podem ser facilmente processados e encadeados. Além disso, ele oferece acesso a uma vasta biblioteca de módulos e cmdlets (comandos) que facilitam a automação de tarefas específicas. O PowerShell é uma ferramenta essencial para administradores de sistemas e profissionais de TI que desejam simplificar e agilizar suas operações de gerenciamento de sistemas Windows.
+O `PowerShell` é uma poderosa linguagem de script e ambiente de automação desenvolvida pela Microsoft, projetada para simplificar a administração e a automação de tarefas em sistemas Windows e ambientes de rede. Ele fornece uma interface de linha de comando interativa que permite aos usuários executar comandos e escrever scripts para realizar uma ampla gama de tarefas, desde gerenciamento de arquivos e configuração de sistema até administração de servidores. O `PowerShell` se destaca pela ênfase na manipulação de objetos, permitindo que os resultados dos comandos sejam tratados como objetos que podem ser facilmente processados e encadeados. Além disso, ele oferece acesso a uma vasta biblioteca de módulos e cmdlets (comandos) que facilitam a automação de tarefas específicas. O `PowerShell` é uma ferramenta essencial para administradores de sistemas e profissionais de TI que desejam simplificar e agilizar suas operações de gerenciamento de sistemas Windows.
 
 
 ## 1. Como configurar/instalar o `powershell` no `Linux Ubuntu` [1][3]
@@ -59,14 +59,14 @@ Para configurar/instalar o `powershell` no `Linux Ubuntu`, você pode seguir est
 
 ### 1.1 Código completo para configurar/instalar/usar
 
-Para configurar/instalar o `PowerShell` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
+Para configurar/instalar/usar o `PowerShell` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
 
 2. Digite o seguinte comando e pressione `Enter`:
 
     ```
-    sudo apt clean                                                            
+    sudo apt clean
     sudo apt autoclean
     sudo apt autoremove -y
     sudo apt update
